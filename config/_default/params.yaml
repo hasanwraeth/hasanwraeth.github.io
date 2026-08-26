@@ -159,7 +159,11 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
+<<<<<<< HEAD
       measurement_id: "G-PJK1P621GH"                # Google Analytics 4: G-XXXXXXXXXX
+=======
+      measurement_id: "G-PJK1P621GH"                        # TODO: G-XXXXXXXXXX (Google Analytics 4)
+>>>>>>> 80c5ebb (website update)
     google_tag_manager:
       container_id: ""
     plausible:

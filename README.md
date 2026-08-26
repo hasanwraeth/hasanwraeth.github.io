@@ -80,30 +80,6 @@ Tell Hugo Chat what you want in plain English. It generates structured pages wit
 
 ---
 
-## 💎 Go Premium
-
-Love the free version? **Dev Portfolio Pro** takes it further:
-
-- Premium designs that make an unforgettable first impression
-- Advanced project layouts and gallery options
-- Enhanced timeline and skill visualizations
-- Remove attribution, priority support
-
-| | **Dev Portfolio** (Free) | **Dev Portfolio Pro** |
-| :--- | :---: | :---: |
-| Design | Modern & clean | **Premium designs** |
-| Project layouts | Standard grid | **Advanced gallery** |
-| Skill display | Icon grid | **Enhanced visuals** |
-| Support | Community | **Priority** |
-
-<p align="center">
-  <a href="https://hugoblox.com/pricing?utm_source=github&utm_medium=readme&utm_content=premium_dev-portfolio"><b>Compare plans</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/dev-portfolio-pro?utm_source=github&utm_medium=readme&utm_content=premium_deploy_dev-portfolio"><b>Deploy Pro version</b></a>
-</p>
-
----
-
 ## 🏆 Why HugoBlox?
 
 > *Why not just use WordPress, Webflow, or an AI builder like Lovable?*
@@ -155,31 +131,4 @@ Yes. No questions asked.
 
 ---
 
-<h2 align="center">🚀 Ready to launch?</h2>
-
-<p align="center">
-  Deploy in 60 seconds. Customize with AI. Own it as Markdown forever.
-</p>
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=cta_final"><b>Deploy Dev Portfolio — free</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_final_dev-portfolio"><b>Customize with AI</b></a>
-</p>
-
----
-
-## Community & Support
-
-- 💬 [**Discord**](https://discord.gg/z8wNYzb) — ask questions, share your site
-- 📚 [**Docs**](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=community_dev-portfolio)
-- ⭐ [**Star HugoBlox**](https://github.com/HugoBlox/kit) — help others find it
-- 🐦 [**Follow on X**](https://x.com/GoOwnable)
-
-### Sponsors
-
-[**❤️ Sponsor on GitHub**](https://github.com/sponsors/gcushen) | [**🏢 Become a Partner**](https://github.com/sponsors/gcushen)
-
----
-
-MIT © 2016-present [**Lore Labs**](https://lore.tech/?utm_source=github&utm_medium=readme)
+MIT © 2016-present

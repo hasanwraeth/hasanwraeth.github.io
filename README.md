@@ -1,45 +1,4 @@
-# [The Dev Portfolio That Gets You Hired](https://github.com/HugoBlox/hugo-theme-dev-portfolio)
-
-[![Screenshot](.github/preview.png)](https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=preview)
-
-<!-- TODO: Replace with a short demo video showing Hugo Chat generating a portfolio page -->
-https://github.com/user-attachments/assets/a6b676c0-1c10-4734-a55f-68c6f72d1612
-
-<h1 align="center">Ship Your Portfolio Before The Weekend</h1>
-
-<p align="center">
-  <strong>Your projects deserve better than a GitHub pinned repo.</strong><br/>
-  Showcase real work, ship a clean blog, and stand out with a modern dark-first design — all from Markdown files you own. No fragile React app required.<br/>
-  Built on <a href="https://github.com/HugoBlox/kit">HugoBlox</a> — the open-source framework where AI generates your pages and you own everything as Markdown.
-</p>
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=cta_top"><b>Deploy Free (60s)</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=cta_top_dev-portfolio"><b>Customize with AI</b></a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=demo">Live Demo</a>
-</p>
-
-<div align="center">
-
-  <a href="https://github.com/HugoBlox/hugo-theme-dev-portfolio">
-    <img src="https://img.shields.io/github/stars/HugoBlox/hugo-theme-dev-portfolio?label=Star&logo=github&style=flat-square&color=181717" alt="GitHub Stars">
-  </a>
-  <a href="https://discord.gg/z8wNYzb">
-    <img src="https://img.shields.io/discord/722225264733716590?label=Discord&logo=discord&logoColor=white&style=flat-square&color=5865F2" alt="Discord">
-  </a>
-  <a href="https://github.com/HugoBlox/kit">
-    <img src="https://img.shields.io/github/stars/HugoBlox/kit?label=HugoBlox&logo=github&style=flat-square&color=181717" alt="HugoBlox Stars">
-  </a>
-
-</div>
-
-<p align="center">
-  <sub>Part of the <a href="https://github.com/HugoBlox/kit"><strong>HugoBlox</strong></a> ecosystem · <strong>150,000+</strong> sites · Rated <strong>4.9/5</strong> (official survey) · Since <strong>2016</strong></sub>
-</p>
-
----
+# [Personal Website](https://hasanwraeth.github.io/)
 
 ## Why This Template?
 
@@ -49,18 +8,6 @@ Most developer portfolios look the same — and most "quick" site builders produ
 - **Software engineers** who want a modern dark-first design that feels premium without writing frontend code
 - **STEM professionals** (data, ML, research, engineering) showcasing projects and technical writing
 - **Anyone job-hunting** who needs projects, tech stack, experience timeline, and a blog in one credible site
-
-> *"I deployed this on a Friday evening and had three recruiters comment on it by Monday. The dark mode and project grid made my work look 10x more polished than a GitHub profile."*
-> — **Kai Nakamura**, Software Engineer
-
-> *"My students use this as their default portfolio template. They fork it, edit Markdown, push to GitHub Pages — done. No React, no Vercel bills, no maintenance headaches."*
-> — **Dr. Amira Hassan**, CS Lecturer, TU Munich
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=cta_mid">
-    <img src="https://img.shields.io/badge/⚡️%20Deploy%20Your%20Portfolio%20in%2060s-7c3aed?style=for-the-badge" alt="Deploy this template" width="400">
-  </a>
-</p>
 
 ---
 

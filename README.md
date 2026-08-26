@@ -21,8 +21,8 @@ Most developer portfolios look the same — and most "quick" site builders produ
 | **Blog with featured images** | Write technical posts in Markdown. Code highlighting, math, and diagrams included. |
 | **Dark-first design** | Looks premium in dark mode, works perfectly in light. No design skills needed. |
 | **SEO & AI-ready** | Optimized for search engines and LLMs — your work gets found and recommended. |
-| **AI page generation** | Describe what you need to [Hugo Chat](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=features_dev-portfolio) — get structured pages with correct front matter instantly. |
-| **Visual editor** | Drag-and-drop blocks in VS Code with [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable). No coding needed. |
+| **AI page generation** | Describe what you need to `AI chat` — get structured pages with correct front matter instantly. |
+| **Visual editor** | Drag-and-drop blocks in VS Code with `Ownable CMS`. No coding needed. |
 | **Plain Markdown** | Every file is human-readable. No database, no lock-in, take your content anywhere. |
 | **Free hosting** | Deploy to GitHub Pages, Netlify, Vercel, or Cloudflare — all free tier. |
 
@@ -36,7 +36,6 @@ Most developer portfolios look the same — and most "quick" site builders produ
 
 > [!TIP]
 > Deploy a live site in 60 seconds — no software to install:
-> [**Deploy Dev Portfolio free**](https://hugoblox.com/templates/dev-portfolio?utm_source=github&utm_medium=readme&utm_content=get_started)
 
 **Option B: Use the CLI**
 
@@ -51,13 +50,11 @@ npx hugoblox create site --template dev-portfolio
 <tr>
 <td width="50%">
 
-**✨ Hugo Chat** — AI customization
+**✨ Chat** — AI customization
 
-Tell Hugo Chat what you want in plain English. It generates structured pages with the right front matter, shortcodes, and blocks for this template.
+Tell AI Chat what you want in plain English. It generates structured pages with the right front matter, shortcodes, and blocks for this template.
 
 > *"Add a project page for my CLI tool with tech stack, screenshots, and a GitHub link"*
-
-[**Try Hugo Chat — free**](https://hugo.chat/?utm_source=github&utm_medium=readme&utm_content=step2_dev-portfolio)
 
 </td>
 <td width="50%">
@@ -71,9 +68,6 @@ Tell Hugo Chat what you want in plain English. It generates structured pages wit
 </td>
 </tr>
 </table>
-
-![Ownable CMS in Action](https://raw.githubusercontent.com/HugoBlox/kit/main/.github/media/studio/slide-1.webp)
-*Ownable CMS: Drag-and-drop page builder inside VS Code.*
 
 > [!NOTE]
 > **New to Hugo?** No problem. You don't need to know Hugo — edit visually or write Markdown. Hugo is the engine under the hood that makes your site fast, secure, and free to host. [Learn more →](https://docs.ownable.dev/?utm_source=github&utm_medium=readme&utm_content=docs_dev-portfolio)

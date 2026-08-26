@@ -2,99 +2,218 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Hasan Al Reza
+  given: Hasan
+  family: Reza
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+role: Bioinformatics Data Scientist
+email: hasan.al.reza.bd@gmail.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Bioinformatics Data Scientist with experience in multimodal NGS, computational biology,
+  molecular biology, machine learning, and biological data analysis. I develop reproducible
+  pipelines and agentic AI tools for interpreting transcriptomic, epigenetic, spatial, and
+  genomic datasets in disease, development, and therapeutics.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: St. Jude Children's Research Hospital
+    url: https://www.stjude.org/
+  - name: Cincinnati Children's Hospital Medical Center
+    url: https://www.cincinnatichildrens.org/
+  - name: University of Dhaka
+    url: https://www.du.ac.bd/
 
 links:
   - icon: at-symbol
-    url: mailto:alex@example.com
+    url: mailto:hasan.al.reza.bd@gmail.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/hasanwraeth/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
-
+    url: https://www.linkedin.com/in/hasan-al-reza/
+  - icon: brands/googlescholar
+    url: https://scholar.google.com/citations?user=YOemoSAAAAAJ&hl=en&authuser=1
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - Multimodal NGS
+  - Spatial Transcriptomics
+  - Computational Biology
+  - Liver Organoids
+  - Machine Learning
+  - Agentic AI for Biology
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: PhD, Molecular and Developmental Biology
+    institution: University of Cincinnati
+    icon: brands/favicon1
+    end: 2023-10-01
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
+      Metabolic Augmentation of Self-Organizing Human Liver Organoids for Development,
+      Disease, and Therapeutics.
     button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+      text: View Research
+      url: https://www.nature.com/articles/s41586-025-08850-1
+      icon: brands/googlescholar
+  - degree: MS, Genetic Engineering and Biotechnology
+    institution: University of Dhaka
+    icon: brands/favicon
+    end: 2017-09-01
+    summary: |
+      The relationship between human MDM2 SNPs, and their effect on lung cancer risk in
+      Bangladeshi population.
+    button:
+      text: View Research
+      url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7214377/
+      icon: brands/googlescholar
+  - degree: BS, Genetic Engineering and Biotechnology
+    institution: University of Dhaka
+    icon: brands/favicon
+    end: 2016-02-01
+    summary: |
+      DNA barcoding of the fishes of Bangladesh.
+    button:
+      text: View Research
+      url: https://www.biotaxa.org/ft/article/view/3-4-4
+      icon: brands/googlescholar
+
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: Bioinformatics Research Scientist
+    org: St. Jude Children's Research Hospital
+    icon: brands/favicon2
+    start: 2025-11-01
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      * Using multimodal NGS, including transcriptomics, epigenetics, and spatial data, to stage
+      disease states and integrate genomic context to identify causal agents in neurological
+      and hematological disorders.
+      * Driving agentic AI skills and technologies for scalable annotation, transcription factor
+      footprinting, and biological interpretation of complex epigenetic datasets.
+    button:
+      text: View Project
+      url: https://github.com/stjudecab/CAB-aiSkills
+      icon: brands/github
+  - role: Bioinformatics Data Scientist
+    org: Cincinnati Children's Hospital Medical Center
+    icon: brands/favicon3
+    start: 2024-08-01
+    end: 2025-10-31
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
+      * Led development of spatial transcriptomics tools for Visium HD analysis of pulmonary
+      development and disease, enabling analysis at 10x higher resolution and detection of
+      two unique niches.
+    button:
+      text: View Project
+      url: https://github.com/hasanwraeth/SpatialNiche
+      icon: brands/github
+  - role: Research Fellow
+    org: Cincinnati Children's Hospital Medical Center
+    icon: brands/favicon3
+    start: 2023-11-01
+    end: 2024-07-31
     summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      * Developed zonal liver organoids using molecular and computational biology, increasing
+      survival in transplanted rats by 152%.
+      * Built NGS analysis pipelines that identified two transcription factors involved in liver
+      zonation with 95% confidence, and performed GWAS analyses of MASH-associated variants.
+    button:
+      text: View Project
+      url: https://github.com/hasanwraeth/Spatial_RNAseq
+      icon: brands/github
+  - role: Graduate Research Assistant
+    org: Cincinnati Children's Hospital Medical Center
+    icon: brands/favicon3
+    start: 2018-07-01
+    end: 2023-10-31
+    summary: |
+      * Led liver development, disease, and therapeutics research using CRISPR-edited stem-cell
+      derived human liver organoids, resulting in one patent and four Q1 journal articles.
+      * Created RNA-seq, ATAC-seq, ChIP-seq, and scRNA-seq pipelines for terabytes of data.
+      * Analyzed Perturb-seq and CROP-seq data, identified three drug leads, and automated cell
+      measurements with Python, reducing processing time from two days to two hours.
+    button:
+      text: View Project
+      url: https://github.com/hasanwraeth/snRNAseq
+      icon: brands/github
+  - role: Graduate Research Assistant
+    org: University of Dhaka
+    icon: brands/favicon
+    start: 2016-03-01
+    end: 2023-10-31
+    summary: |
+      * Developed vaccine candidates and identified lncRNA and miRNA biomarkers through genome-
+      wide analyses, resulting in more than five Q1 journal articles.
+      * Analyzed lung cancer patient blood and SNP data, predicted SARS-CoV-2 mutations with deep
+      learning, and assembled MRSA whole-genome data to characterize multidrug-resistant strains.
+    button:
+      text: View Project
+      url: https://github.com/hasanwraeth/Machine_Learning
+      icon: brands/github
+  - role: Undergraduate Research Assistant
+    org: University of Dhaka
+    icon: brands/favicon
+    start: 2014-01-01
+    end: 2016-02-29
+    summary: |
+      * Identified diabetes-associated SNPs in the Bangladeshi population and sequenced, analyzed,
+      and submitted DNA barcodes for more than 200 fish and marine species to NCBI.
+    button:
+      text: View Project
+      url: https://github.com/hasanwraeth/Bacteria_Genome_Analysis
+      icon: brands/github
 
 skills:
-  - name: Development
+  - name: Programming
     items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
       - label: Python
+        level: 5
+      - label: R
+        level: 5
+      - label: SQL (PostgreSQL)
+        level: 5
+      - label: Bash (Unix/Linux)
         level: 4
-  - name: DevOps
+      - label: JavaScript
+        level: 3
+  - name: Bioinformatics and Data Science
     items:
+      - label: NGS Analysis
+        level: 5
+      - label: Machine Learning
+        level: 5
+      - label: Data Visualization
+        level: 5
+      - label: GWAS
+        level: 4
+      - label: Spatial Transcriptomics
+        level: 4
+  - name: Tools and Platforms
+    items:
+      - label: Bioconductor
+        level: 5
+      - label: Nextflow
+        level: 4
       - label: Docker
         level: 4
       - label: AWS
         level: 4
-      - label: CI/CD
+      - label: HPC (LSF)
         level: 5
 
 languages:
   - name: English
     level: 5
-    label: Native
+    label: Professional
 
-awards: []
+awards:
+  - title: "Patent: Liver Organoid Model for Hyperbilirubinemia and Methods of Making and Using Same"
+    icon: custom/favicon1
+    awarder: WO/2022/261471; PCT/US2022/033066
+    date: 2022-12-15
+  - title: "Award: 2nd prize at DHC Annual Scientific Symposium"
+    icon: brands/favicon3
+    awarder: CCHMC
+    date: 2023-03-31
+  - title: "Award: Dean’s Award for Academic Excellence in BS (Honors)"
+    icon: brands/favicon
+    awarder: University of Dhaka
+    date: 2016-01-31

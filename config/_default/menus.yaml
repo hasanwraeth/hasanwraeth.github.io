@@ -1,20 +1,27 @@
-# Navigation Links
-#   To link a homepage section, use a hash `#` followed by the section ID.
-#   The weight parameter defines the order that the links appear.
-
+# ══════════════════════════════════════════════════════════════════════════════
+# NAVIGATION MENU
+# Links point to homepage sections using `#` + the section ID from _index.md.
+# `weight` controls the left-to-right order in the navbar.
+# ══════════════════════════════════════════════════════════════════════════════
 main:
+  - name: About Me
+    url: /#about
+    weight: 10
   - name: Projects
     url: /#projects
-    weight: 10
+    weight: 20
   - name: Skills
     url: /#skills
-    weight: 20
+    weight: 30
   - name: Experience
     url: /#experience
-    weight: 30
+    weight: 40
+  - name: Achievements
+    url: /#achievements
+    weight: 50
   - name: Blog
     url: /#blog
-    weight: 40
+    weight: 60
   - name: Contact
     url: /#contact
-    weight: 50
+    weight: 70

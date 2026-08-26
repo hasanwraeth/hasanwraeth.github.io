@@ -1,0 +1,112 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Hasan Al Reza
+  given: Hasan
+  family: Reza
+postnominals: []
+status:
+  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
+role: Bioinformatics Data Scientist
+email: alex@example.com
+bio: |
+  Innovative Computational / Molecular Biologist with 5+ years of experience generating and
+  handling Biological Big Data. I have designed pipelines for streamlined analysis of NGS
+  data assisted by bioinformatics and machine learning algorithms that have analyzed
+  Terabytes of data.
+
+affiliations:
+  - name: 
+    url: https://techcorp.example.com
+
+links:
+  - icon: at-symbol
+    url: mailto:hasan.al.reza.bd@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/hasanwraeth/
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/hasan-al-reza/
+
+interests:
+  - Web Development
+  - Cloud Architecture
+  - Open Source
+  - Developer Experience
+
+education:
+  - degree: PhD, Molecular and Develpmental Biology
+    institution: University of Cincinnati
+    start: 2018-07-01
+    end: 2023-10-01
+    summary: |
+      Metabolic Augmentation of Self-Organizing Human Liver Organoids for Development,
+      Disease, and Therapeutics.
+    button:
+      text: View Project
+      url: https://github.com/hasanwraeth/Multi-zonal-Liver-Organoids-from-Human-Pluripotent-Stem-Cells
+      icon: brands/github
+  - degree: MS, Genetic engineering and Biotechnology
+    institution: University of Cincinnati
+    start: 2018-07-01
+    end: 2023-10-01
+    summary: |
+      Metabolic Augmentation of Self-Organizing Human Liver Organoids for Development,
+      Disease, and Therapeutics.
+    button:
+      text: View Project
+      url: https://github.com/hasanwraeth/Multi-zonal-Liver-Organoids-from-Human-Pluripotent-Stem-Cells
+      icon: brands/googlescholar
+
+
+experience:
+  - role: Senior Software Engineer
+    org: Tech Corp
+    start: 2023-01-01
+    summary: |
+      Lead development of microservices architecture serving 1M+ users.
+      Improved API response time by 40% through optimization.
+      Mentored team of 5 junior developers.
+  - role: Full-Stack Developer
+    org: Startup Inc
+    start: 2021-06-01
+    end: 2022-12-31
+    summary: |
+      Built and deployed 3 production applications from scratch.
+      Implemented CI/CD pipeline reducing deployment time by 60%.
+      Led migration from monolith to microservices architecture.
+  - role: Junior Developer
+    org: Web Agency
+    start: 2020-01-01
+    end: 2021-05-31
+    summary: |
+      Developed client websites using React and modern web technologies.
+      Participated in code reviews and agile ceremonies.
+
+skills:
+  - name: Development
+    items:
+      - label: TypeScript
+        level: 5
+      - label: React
+        level: 5
+      - label: Node.js
+        level: 5
+      - label: Python
+        level: 4
+  - name: DevOps
+    items:
+      - label: Docker
+        level: 4
+      - label: AWS
+        level: 4
+      - label: CI/CD
+        level: 5
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+
+awards: []

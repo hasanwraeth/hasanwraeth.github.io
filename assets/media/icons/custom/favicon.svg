@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">HAR neon favicon</title>
+  <desc id="desc">Blue neon letters HAR on a dark background.</desc>
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.05
+                0 0 0 0 0.45
+                0 0 0 0 1
+                0 0 0 0.95 0" result="blueGlow" />
+      <feMerge>
+        <feMergeNode in="blueGlow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="neon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f8ff" />
+      <stop offset="0.45" stop-color="#54cfff" />
+      <stop offset="1" stop-color="#087dff" />
+    </linearGradient>
+    <radialGradient id="background" cx="50%" cy="45%" r="75%">
+      <stop offset="0" stop-color="#0b2446" />
+      <stop offset="1" stop-color="#020711" />
+    </radialGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="14" fill="url(#background)" />
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#0b5d9e" stroke-opacity="0.55" />
+
+  <g filter="url(#glow)" fill="none" stroke="url(#neon)" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="5" d="M7 16v32M20 16v32M7 32h13" />
+    <path stroke-width="5" d="M24 48 28.5 16h4L37 48M26 37h9" />
+    <path stroke-width="5" d="M43 16h7c4 0 6 3 6 8s-2 8-6 8h-7V16Zm0 16 10 16M43 32v16" />
+  </g>
+
+  <path d="M7 16v32M20 16v32M7 32h13M24 48 28.5 16h4L37 48M26 37h9M43 16h7c4 0 6 3 6 8s-2 8-6 8h-7V16Zm0 16 10 16M43 32v16"
+    fill="none" stroke="#dff8ff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+</svg>

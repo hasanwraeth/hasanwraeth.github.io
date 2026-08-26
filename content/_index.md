@@ -330,7 +330,7 @@ sections:
         Let's connect and discuss how I can help your team.
       button:
         text: 'Download Resume'
-        url: uploads/resume.pdf                  # TODO: place your PDF at static/uploads/resume.pdf
+        url: uploads/CV_HAR_F7MD.pdf                 # TODO: place your PDF at static/uploads/resume.pdf
         new_tab: true
     design:
       card:

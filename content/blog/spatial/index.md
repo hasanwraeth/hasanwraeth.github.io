@@ -105,7 +105,8 @@ spatial_obj <- subset(spatial_obj, subset = nCount_Xenium > 0)
 VlnPlot(spatial_obj, features = c("nFeature_Xenium", "nCount_Xenium"))
 ImageFeaturePlot(spatial_obj, features = "marker_gene")
 ```
-
+![Example UMAP result](umap2.jpeg)
+![Example feature result](feature2.jpeg)
 Thresholds must be chosen from the assay and tissue. A low-density tissue region can legitimately have fewer transcripts than a dense region. Keep a record of removed barcodes and inspect the filter on the tissue image.
 
 ## 4. Normalize and cluster
@@ -126,7 +127,7 @@ SpatialDimPlot(spatial_obj, label = TRUE, repel = TRUE)
 ```
 
 For a very large Visium HD section, sketch-based analysis reduces the cost of model fitting. A subset is clustered first, then the learned reductions and labels are projected back to all bins:
-
+![Example UMAP result](umap.jpeg)
 ```r
 spatial_obj <- SketchData(
   object = spatial_obj,
@@ -165,7 +166,7 @@ spatial_genes <- SpatiallyVariableFeatures(
 )
 SpatialFeaturePlot(spatial_obj, features = head(spatial_genes, 6))
 ```
-
+![Example spatial feature result](feature.jpeg)
 Spatial autocorrelation can reflect tissue structure, cell density, segmentation artifacts, or technical gradients. Compare spatially variable genes with QC metrics and image features before assigning biological meaning.
 
 ## 6. Segment nuclei and aggregate expression
@@ -223,7 +224,7 @@ grouped = expression_adata[valid.index].to_df().groupby(
     valid["cell_id"]
 ).sum()
 ```
-
+![Example binning result](bin.png)
 Segmentation errors propagate into every downstream analysis. Inspect masks overlaid on the image, quantify polygon area, and retain the mapping from original barcode to segmented object.
 
 ## 7. Assign cell types with deconvolution
@@ -280,7 +281,7 @@ nearby_barcodes <- Get_Periphery(
   data.dir = data_dir
 )
 ```
-
+![Example niche result](niche.png)
 Choose neighborhood radius and neighbor count in physical units when possible. A niche is a computational definition of local context, not a fixed anatomical entity.
 
 ## 9. Analyze spatial communication with CellChat
@@ -330,7 +331,7 @@ netVisual_circle(cellchat_obj@net$weight)
 netVisual_spatial(cellchat_obj, signaling = "SIGNALING_PATHWAY")
 cellchat_obj <- netAnalysis_computeCentrality(cellchat_obj, slot.name = "netP")
 ```
-
+![Example cellchat result](cellchat.png)
 For multiple conditions, create and analyze separate CellChat objects before comparing them. Predicted interactions are hypotheses based on expression and a curated database, not proof of physical contact or signaling activity.
 
 ## 10. Prioritize upstream ligands with NicheNet
@@ -373,7 +374,7 @@ ligand_activity <- predict_ligand_activities(
   potential_ligands = potential_ligands
 )
 ```
-
+![Example nichenet result](nichenet.png)
 Ranked ligands should be checked against spatial sender expression, receptor localization, CellChat interactions, and the biological condition. A high ligand-activity score means that the model's target program is concordant with the receiver gene set; it does not establish causal signaling.
 
 ## Reproducibility and failure checks

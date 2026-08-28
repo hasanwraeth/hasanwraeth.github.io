@@ -122,7 +122,7 @@ seurat_obj <- FindClusters(seurat_obj, resolution = 0.5)
 seurat_obj <- RunUMAP(seurat_obj, dims = dims_to_use)
 DimPlot(seurat_obj, reduction = "umap", label = TRUE, repel = TRUE)
 ```
-
+![Example UMAP result](UMAP.png)
 Use PCA loadings, elbow plots, and clustering stability to choose dimensions and resolution. For samples with substantial technical variation, the source also demonstrates `SCTransform()`. Make the active assay explicit so integrated and RNA expression are not mixed accidentally.
 
 ## 5. Find markers and assign labels
@@ -204,7 +204,7 @@ gsea_result <- clusterProfiler::gseGO(
   geneList = gene_list, OrgDb = org.Hs.eg.db,
   keyType = "ENTREZID", ont = "ALL", pAdjustMethod = "BY")
 ```
-
+![Example pseudotime result](time.png)
 Remove missing or duplicated identifiers and define the tested-gene universe before interpreting enrichment.
 
 ## 8. Export for RNA velocity
@@ -265,7 +265,7 @@ scv.tl.velocity(subset, mode="dynamical")
 scv.tl.velocity_graph(subset)
 scv.tl.latent_time(subset)
 ```
-
+![Example velocity result](velo.jpg)
 Velocity arrows are model-dependent estimates. Check confidence, known marker progression, preprocessing choices, and controls; velocity does not by itself prove lineage direction.
 
 ## 10. Infer cell-cell communication with CellChat
@@ -303,7 +303,7 @@ netVisual_aggregate(cellchat, signaling = selected_pathway, layout = "circle")
 netVisual_heatmap(cellchat, signaling = selected_pathway)
 cellchat <- netAnalysis_computeCentrality(cellchat, slot.name = "netP")
 ```
-
+![Example cellchat result](chat.png)
 CellChat results are curated database- and expression-based hypotheses, not proof of physical contact or signaling activity. Consider cell abundance, receptor expression, experimental context, and orthogonal validation.
 
 ## Reproducibility checks

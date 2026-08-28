@@ -51,7 +51,7 @@ project/
 `gene_map.csv` must contain transcript and gene identifiers in the order expected by `tximport`. The R code reads it without a header and names the columns `esntid` and `ensgid`. The first metadata column must be `Sample Name`; those values are also used as the directories containing each sample's `quant.sf` file.
 
 Before running the analysis, check that the metadata order matches the assumptions in the R code: the first six samples are NHBE and the next six are A549, with three mock samples followed by three infected samples in each group. In a real project, this ordering should be replaced with an explicit sample-to-condition join.
-
+![Example result](RNA.png)
 ## 1. Download and convert the reads
 
 The SRA script extracts run accessions from the first column of `SraRunTable.txt`, skips entries with an existing compressed FASTQ file, and converts each remaining run:
@@ -191,7 +191,7 @@ ego <- enrichGO(
 barplot(ego, showCategory = 20)
 dotplot(ego, showCategory = 20)
 ```
-
+![Example GSEA result](gsea.png)
 The same workflow can be extended to KEGG, but database identifiers and access requirements should be checked for the installed `clusterProfiler` version.
 
 ## 6. Compare the cell models

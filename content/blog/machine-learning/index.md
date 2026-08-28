@@ -29,7 +29,9 @@ raw table or images
   -> transfer-learning classifier
   -> evaluation, diagnostics, and saved artifacts
 ```
-
+Data Cleanup             |  Evaluating Loss
+:-------------------------:|:-------------------------:
+![](cleanup.jpg)  |  ![](loss.jpg)
 ## 1. Create a reproducible tabular dataset
 
 When testing a workflow, a synthetic dataset makes the data-generating assumptions explicit. Set the seed before sampling and distinguish identifiers, dates, categorical variables, and outcomes:
@@ -232,6 +234,7 @@ for observed_value in test_values:
 ```
 
 Compare fixed-model and rolling-update forecasts using the same test dates and metrics. Include prediction intervals and inspect residuals; a low average error can hide systematic underprediction during peaks.
+![Example ARIMA result](ARIMAup.png)
 
 ## 7. Train an LSTM on rolling windows
 
@@ -288,6 +291,7 @@ lstm_model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size)
 ```
 
 Evaluate on a future holdout and compare with the ARIMA baseline. Do not scale the target using information from the test period, and do not build a window that crosses the train/test boundary unless that behavior is explicitly part of deployment.
+![Example LSTM result](LSTM.png)
 
 ## 8. Classify images with transfer learning
 
@@ -352,6 +356,7 @@ image_model.save("trained_image_model.keras")
 ```
 
 Accuracy alone can be misleading for imbalanced classes. Report class-wise precision, recall, sensitivity, specificity, calibration, and a confusion matrix. For medical or other high-stakes images, evaluate at the subject level, preserve an untouched test set, and do not interpret a demonstration model as a diagnostic system.
+![Example transfer learning result](tensor.png)
 
 ## 9. Run inference consistently
 

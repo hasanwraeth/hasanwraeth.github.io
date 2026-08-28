@@ -43,7 +43,7 @@ project/
 The preprocessing job requires `trim_galore`, `bwa`, `samtools`, `picard`, `bamCoverage`, and `macs2`. The BWA index must use the same assembly and compatible chromosome names as the downstream hg38 annotation packages. The BWA command expects paired-end reads because it uses `$SRR1` and `$SRR2`.
 
 The ChIP.R uses DiffBind, GenomicRanges, rtracklayer, ChIPseeker, the hg38 known-gene transcript database, Ensembl release 105, clusterProfiler, org.Hs.eg.db, enrichplot, msigdbr, goseq, rGREAT, the hg38 BSgenome package, and JASPAR2020.
-
+![Example result](tornado.png)
 ## 1. Trim and align reads
 
 The shell script reads sample identifiers from the first column of `SraRunTable2.txt`:
